@@ -60,7 +60,7 @@ a:hover{
     /* MAIN (index) */ 
 
 main{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(221, 221, 221);
     }
 
 .h2{
@@ -119,7 +119,6 @@ main{
         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
         background: #000000;
         z-index: 1;
-        /* text-decoration: line-through; */
     }
     
 .imgPrice:hover:after {
@@ -187,34 +186,67 @@ main{
 
     /* MAIN (novedades) */
 
-.textoNovedades {
+    .mainNovedades{
+        background-color: white;
+    }
 
+
+    .textoNovedades {
     background-color: white;
+    padding: 20px 10% 20px 10%;
 }
+
+    .textoNovedades h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+    .mail{
+    padding-left: 40%;
+    }
+
+    .enviar{
+        padding-left: 45%;
+    }
+
+
 
 /* MAIN (dscuentos) */
 
 .descuentoCross{
     text-decoration: line-through;
+    color: white;
 }
 
-/* .descuentoTag{
-    text-decoration: line-through;
+.descuento{
+    color: white;
 }
- */
+
+    /* MAIN (contacto) */
+    
+    .mainContacto{
+        background-color: white;
+        
+    }
+
+
 
 
     /* CAMBIO DE MEDIDA */
 
 @media (max-width:768){
-    /* TABLET */
-    
+    .itemsNavBar{
+        background-color: aquamarine;
+        height: 500px;
+    }
     }
 
 
 
     /* CAMBIO DE MEDIDA */
 @media (max-width:320){
-    /* CELULAR */
-    
+    .itemsNavBar{
+        background-color: aquamarine;
+        height: 500px;
+    }
     }
