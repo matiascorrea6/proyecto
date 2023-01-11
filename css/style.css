@@ -184,6 +184,18 @@ main{
     
 
 
+/* MAIN (dscuentos) */
+
+.descuentoCross{
+    text-decoration: line-through;
+    color: white;
+}
+
+.descuento{
+    color: white;
+}
+
+
     /* MAIN (novedades) */
 
     .mainNovedades{
@@ -210,23 +222,10 @@ main{
     }
 
 
-
-/* MAIN (dscuentos) */
-
-.descuentoCross{
-    text-decoration: line-through;
-    color: white;
-}
-
-.descuento{
-    color: white;
-}
-
     /* MAIN (contacto) */
     
     .mainContacto{
         background-color: white;
-        
     }
 
 
